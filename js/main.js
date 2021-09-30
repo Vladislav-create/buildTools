@@ -1,4 +1,5 @@
-import { printOutput } from "./output.js";
+import { printOutput, printDatesDiff } from "./output.js";
+import getDatesDiff from "./getDateDiff.js";
 
 const form = document.getElementById('calcDate')
 
@@ -9,7 +10,11 @@ form.onsubmit = (event) => {
 
     if (!firstDate.value || !secondDate.value){
         printOutput('Введите даты!!!');
+
+        return;
     }
 
-    
+    const dateDiff = getDatesDiff({from: firstDate.value, to: secondDate.value});
+
+    printDatesDiff(dateDiff);
 }
