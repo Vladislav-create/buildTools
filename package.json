@@ -1,0 +1,22 @@
+{
+  "name": "buildtools",
+  "version": "1.0.0",
+  "description": "training course of buildTools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladislav-create/buildTools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vladislav-create/buildTools/issues"
+  },
+  "homepage": "https://github.com/Vladislav-create/buildTools#readme",
+  "dependencies": {
+    "howler": "^2.2.3"
+  }
+}

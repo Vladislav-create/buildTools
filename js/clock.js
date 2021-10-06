@@ -1,3 +1,5 @@
+import {soundPlay} from './sound.js';
+
 var timer;
 const ele = document.getElementById('clock');
 
@@ -16,7 +18,9 @@ export function clock() {
        ele.innerHTML = min + ':' + sec;
        if((min + ':' + sec) == userTime) {
         stop();
-        
+        //Добавление звука  
+        soundPlay();
+        //Добавление звука
     }
        if (sec === 60){
         sec = 0;

@@ -2,6 +2,7 @@ import { printOutput, printDatesDiff } from "./output.js";
 import getDatesDiff from "./getDateDiff.js";
 import { invisible } from "./invisible.js";
 import {clock, stop} from "./clock.js";
+import "../node_modules/howler/src/howler.core.js";
 
 const form = document.getElementById('calcDate')
 
