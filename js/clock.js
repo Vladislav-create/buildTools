@@ -1,7 +1,7 @@
 import {soundPlay} from './sound.js';
+import {printOutput} from './output.js';
 
 var timer;
-const ele = document.getElementById('clock');
 
 export function stop() {
     clearInterval(timer);
@@ -15,8 +15,8 @@ export function clock() {
         min = '0' + min;
         } 
     timer = setInterval(() => {
-       ele.innerHTML = min + ':' + sec;
-       if((min + ':' + sec) == userTime) {
+        printOutput(min + ':' + sec);
+        if((min + ':' + sec) == userTime) {
         stop();
         //Добавление звука  
         soundPlay();
@@ -32,6 +32,6 @@ export function clock() {
         if(sec < 10) {
             sec = '0' + sec;
         }           
-    }, 100);      
+    }, 1000);      
 }
 
