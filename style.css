@@ -1,0 +1,44 @@
+.hiden {
+  display: none;
+}
+
+.timer button {
+  margin-top: 30px;
+}
+
+.timer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.timer h3 {
+  padding-left: 853px;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 835px;
+}
+
+#clock {
+  font-size: 5em;
+  padding-left: 800px;
+}
+
+.btn-start {
+  margin-right: 15px;
+  background-color: green;
+}
+
+.btn-stop {
+  background-color: red;
+}
+
+#userTime {
+  margin-left: 15px;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

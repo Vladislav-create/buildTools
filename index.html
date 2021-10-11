@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Калькулятор дат</title>
+        <script type="module" src='js/main.js'></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        
+    
+        <form id="calcDate" class="calcInvis">
+            <h3>Калькулятор дат</h3>
+            <label for="">
+                <strong>Первая дата:</strong>
+                <input type="date" name="firstDate">
+            </label>
+            <label for="">
+                <strong>Вторая дата:</strong>
+                <input type="date" name="secondDate">
+            </label>
+            <button type="submit">Рассчитать промежуток</button>
+            <p id="result"></p>
+            <button class="click"><strong>ТАЙМЕР</strong></button>
+        </form>
+        
+        <div class="timerInvis timer hiden">
+            <h3>Таймер</h3>
+            <p id="clock">00:00</p>
+            <form id="timer">
+                <p>Введите сколько минут засечь:</p>
+                <input type="time" name="userTime" id="userTime">
+            </form>
+            <div class="btn">
+                <button class="btn-start">Старт</button>
+                <button class="btn-stop">Стоп</button>
+            </div>
+            <button class="clicks"><strong>КАЛЬКУЛЯТОР ДАТ</strong></button>
+        </div>
+        
+    </body>
+
+</html>
