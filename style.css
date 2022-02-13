@@ -12,15 +12,10 @@
   display: flex;
 }
 
-.timer h3 {
-  padding-left: 853px;
-}
-
 .btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 835px;
 }
 
 #clock {
@@ -40,5 +35,15 @@
 #userTime {
   margin-left: 15px;
   border: none;
+}
+
+.click {
+  padding: 10px 20px;
+  background-color: chartreuse;
+}
+
+.clicks {
+  padding: 10px 20px;
+  background-color: chartreuse;
 }
 /*# sourceMappingURL=style.css.map */

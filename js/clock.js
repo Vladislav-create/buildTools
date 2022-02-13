@@ -1,5 +1,5 @@
 import {soundPlay} from './sound.js';
-import {printOutput} from './output.js';
+import {printOutputTimer} from './outputTimer.js';
 
 var timer;
 
@@ -15,7 +15,7 @@ export function clock() {
         min = '0' + min;
         } 
     timer = setInterval(() => {
-        printOutput(min + ':' + sec);
+        printOutputTimer(min + ':' + sec);
         if((min + ':' + sec) == userTime) {
         stop();
         //Добавление звука  
