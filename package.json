@@ -1,29 +1,10 @@
 {
-  "name": "buildtools",
-  "version": "1.0.0",
-  "description": "training course of buildTools",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --mode=development",
-    "build": "webpack -- mode=production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vladislav-create/buildTools.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Vladislav-create/buildTools/issues"
-  },
-  "homepage": "https://github.com/Vladislav-create/buildTools#readme",
   "dependencies": {
     "howler": "^2.2.3",
-    "luxon": "^2.0.2"
+    "luxon": "^2.3.0"
   },
   "devDependencies": {
-    "webpack": "^5.58.2",
-    "webpack-cli": "^4.9.0"
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
   }
 }
