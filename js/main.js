@@ -1,4 +1,4 @@
-import { printOutput, printDatesDiff } from "./output.js";
+import { printOutputCalc, printDatesDiff } from "./output.js";
 import getDatesDiff from "./getDateDiff.js";
 import { invisible } from "./invisible.js";
 import {clock, stop} from "./clock.js";
@@ -12,8 +12,7 @@ form.onsubmit = (event) => {
     const {firstDate, secondDate} = form.elements;
 
     if (!firstDate.value || !secondDate.value){
-        printOutput('Введите даты!!!');
-
+        printOutputCalc('Введите даты!!!');
         return;
     }
 

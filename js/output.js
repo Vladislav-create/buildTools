@@ -1,11 +1,11 @@
-const resultTag = document.getElementById('result')
+const resultTag = document.getElementById('resultCalc')
 
-export const printOutput = (text) => {
+export const printOutputCalc = (text) => {
     resultTag.innerHTML = text
 }
 
 export const printDatesDiff = ({years, months, days}) => {
-    printOutput(`
+    printOutputCalc(`
         Дни: ${days},
         Месяцы: ${months},
         Годы: ${years},

@@ -10,14 +10,11 @@
     & form {
         display: flex;
     }
-    & h3 {
-        padding-left: 853px; 
-    } 
+     
 }
 
 .btn {
     display: flex;
-    padding-left: 835px;
 }
 
 #clock {
@@ -34,4 +31,28 @@
 #userTime {
     margin-left: 15px;
     border: none;
+}
+.click {
+    padding: 10px 20px;
+    background-color: chartreuse;
+}
+.clicks {
+    padding: 10px 20px;
+    background-color: chartreuse;
+}
+#resultTimer{
+    min-height: 30px;
+    max-width: 112px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resultCalc{
+    min-height: 30px;
+    max-width: 242px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
